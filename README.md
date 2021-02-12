@@ -1,12 +1,8 @@
-# LABORATORY - CLIENTS AND SERVICES WORKSHOP. 🚀
+# LABORATORY - APPLICATION SERVER ARCHITECTURE WORKSHOP, OBJECT META PROTOCOLS, IOC PATTERN, REFLECTION. 🚀
 
 ## Escuela Colombiana de Ingeniería - Enterprise Architectures(AREP).
 
-_This laboratory presents different challenges that will help to explore the concepts of naming schemes and clients and services. Additionally, will help to explore the architecture of applications distributed over the internet._
-
-#### CHALLENGE
-_Write a web server that supports multiple requests in a row (non-concurrent). The server should return all requested files, including html pages and images. Build a website with javascript to test your server. Deploy your solution on Heroku. DO NOT use web frameworks like Spark or Spring use only Java and the libraries for network management._
-
+_In this laboratory, I built a web server (Apache type, which can respond to multiple non-concurrent requests.) In Java, the server can deliver html pages and PNG type images, and use the IoC framework to build web applications . From POJOS. Using the above content, I built a sample web application and deployed it on Heroku._
 
 ## Getting Started
 
@@ -54,7 +50,7 @@ mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.App"
 And put this link in your browser: http://localhost:36000/index.html
 ```
 
-- Or go to the [web page](https://front-3lab.herokuapp.com/index.html)
+- Or go to the [web page]()
 
 4. Generating the documentation:
 
@@ -62,11 +58,11 @@ And put this link in your browser: http://localhost:36000/index.html
 mvn javadoc:javadoc
 ```
 
-- [View Documentation Ubication](https://angiedanielar.github.io/LAB3_AREP/apidocs)
+- [View Documentation Ubication](https://angiedanielar.github.io/LAB4_AREP/apidocs)
 
 ## Results
 
-_In this laboratory, I'm implemented a client-server architecture, which allows us to Understand how the server handles and manages requests from the different clients. These request can be about services or about resources such as web pages or images, how we can see in the follow image._
+_jj._
 
 
 ![Imagen 1](resources/images/resultados.png)
@@ -79,7 +75,7 @@ _In this laboratory, I'm implemented a client-server architecture, which allows 
 
 - [Git](https://git-scm.com/) - Version Control System.
 
-- [CircleCI](https://circleci.com/) [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/angiedanielar/LAB3_AREP) - Continuous Integration.
+- [CircleCI](https://circleci.com/) [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/angiedanielar/LAB4_AREP) - Continuous Integration.
 
 - [Latex](overleaf.com) - Text composition system.
 
@@ -87,7 +83,7 @@ _In this laboratory, I'm implemented a client-server architecture, which allows 
 
 ## Inform
 
-- [View the Design Inform](https://github.com/angiedanielar/LAB3_AREP/blob/master/Inform.pdf)
+- [View the Design Inform](https://github.com/angiedanielar/LAB4_AREP/blob/master/Inform.pdf)
 
 ## Author
 
