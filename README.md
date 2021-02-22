@@ -51,7 +51,7 @@ mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.sparkd.SparkServer"
 And put this link in your browser: http://localhost:36000/index.html
 ```
 
-- Or go to the [web page]()
+- Or go to the [web page](https://lab4arep.herokuapp.com/index.html)
 
 4. Generating the documentation:
 
