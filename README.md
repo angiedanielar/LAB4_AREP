@@ -14,6 +14,7 @@ _In this laboratory, I built a web server (Apache type, which can respond to mul
 
 - [Git](https://git-scm.com/) - Version Control System.
 
+
 Make sure you have this programs installed correctly and the version that we need with the following commands:
 
 ```
@@ -33,7 +34,7 @@ java -showversion
 1. Clone the repository:
 
 ```
-git clone https://github.com/angiedanielar/LAB3_AREP.git
+git clone https://github.com/angiedanielar/LAB4_AREP.git
 ```
 
 2. Compile the projet:
@@ -45,7 +46,7 @@ mvn package
 3. Executing the program:
 
 ```
-mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.App"
+mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.sparkd.SparkServer"
 
 And put this link in your browser: http://localhost:36000/index.html
 ```
@@ -62,7 +63,7 @@ mvn javadoc:javadoc
 
 ## Results
 
-_jj._
+_The results obtained._
 
 
 ![Imagen 1](resources/images/resultados.png)
