@@ -10,6 +10,3 @@ buttonNumber.addEventListener('click', function () {
     var number = document.getElementById('inputNumber');
     $("#h").append("The squared is: "+ (parseInt(number.value,10))*(parseInt(number.value,10)));
 });
-
-
-
